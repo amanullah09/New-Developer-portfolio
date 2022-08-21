@@ -58,6 +58,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+.experiance{
+    font-size: 40px;
+    font-weight: 500;
+}
 .experince-area h1{
     font-size: 65px;
 }
@@ -67,6 +71,13 @@ body{
     width:47%;
     margin: 0 3%;
     border-left: 8px solid tomato;
+    border-radius: 5px;
+}
+.experince-area .full-stake h4{
+    color: tomato;
+}
+.experince-area .full-stake p{
+    color:gray;
 }
 .experince-area .baby{
     box-shadow: 5px 7px 40px grey;
@@ -76,6 +87,7 @@ body{
     border-left: 8px solid ;
     border-image: linear-gradient(blue, red);
     border-image-slice: 1;
+    border-radius: 5px;
 }
 .experince-area .baby h4{
     color:tomato;
@@ -83,12 +95,7 @@ body{
 .experince-area .baby p{
     color: grey;
 }
-.experince-area .full-stake h4{
-    color: tomato;
-}
-.experince-area .full-stake p{
-    color:gray;
-}
+
 footer{
     text-align: center;
     margin-top: 200px;
