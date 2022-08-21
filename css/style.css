@@ -15,7 +15,8 @@ body{
     width: 50%;
 }
 .left h1{
-    font-size: 65px;;
+    font-size: 65px;
+    font-weight: 600;
 }
 .left h4{
     font-size: 20px;
@@ -37,4 +38,59 @@ body{
 }
 .right img{
     width: 100%;
+}
+.dream-section{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.dream-section .left{
+    background-image: url('../image/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experince-area{
+    background-image: url('../image/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.experince-area h1{
+    font-size: 65px;
+}
+.experince-area .full-stake{
+    box-shadow: 5px 7px 40px grey;
+    padding:2%;
+    width:47%;
+    margin: 0 3%;
+    border-left: 8px solid tomato;
+}
+.experince-area .baby{
+    box-shadow: 5px 7px 40px grey;
+    padding:2%;
+    width:47%;
+    margin: 0 3%;
+    border-left: 8px solid ;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+}
+.experince-area .baby h4{
+    color:tomato;
+}
+.experince-area .baby p{
+    color: grey;
+}
+.experince-area .full-stake h4{
+    color: tomato;
+}
+.experince-area .full-stake p{
+    color:gray;
+}
+footer{
+    text-align: center;
+    margin-top: 200px;
+    color:grey;
 }
